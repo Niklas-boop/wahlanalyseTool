@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="csv_090-303-LRW-GSMT.csv" />
+    <None Remove="csv_090-303-LRW-STMM.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="csv_090-303-LRW-GSMT.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="csv_090-303-LRW-STMM.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
